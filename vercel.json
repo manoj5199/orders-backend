@@ -1,7 +1,7 @@
 {
-  "router": [
-    {
-      "src": "/"
+  "build": {
+    "env": {
+      "GO_BUILD_FLAGS": "-ldflags '-s -w"
     }
-  ]
+  }
 }
